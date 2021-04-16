@@ -210,8 +210,32 @@ Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti beriku
     </fieldset>
     </form>
 ~~~
+![Membuat Form](https://user-images.githubusercontent.com/81541764/115013341-1a3a8000-9edb-11eb-8529-65c1cd7acfe3.JPG)
 
+## Menabahkan Style pada Form
+Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
+~~~
+<style>
+      form p > label {
+            display: inline-block;
+            width: 100px;
+      }
+      form input[type="text"], form textarea {
+            border: 1px solid #197a43;
+      }
+      form input[type="submit"] {
+            border: 1px solid #197a43;
+            background-color: #197a43; 
+            color: #ffffff;
+            font-weight: bold;
+            padding: 5px 15px;
+      }
+</style>
+~~~
 
+![Menambahkan Style pada Form](https://user-images.githubusercontent.com/81541764/115013704-96cd5e80-9edb-11eb-88cd-aa9c9ae7e0ce.JPG)
 
+# Pertanyaan dan Tugas
+1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
 
-
+![Membuat Dropdown menu dan listbox](https://user-images.githubusercontent.com/81541764/115013768-ab115b80-9edb-11eb-976b-f065bfad1a25.JPG)
